@@ -24,6 +24,8 @@ public class TestNofity {
 			consumers[i].setName("C_" + i);
 			consumers[i].queue = queue;
 			consumers[i].setDaemon(true);
+			
+			System.out.printnl("haha");
 		}
 		
 		for(int i=0;i<producers.length;i++){
